@@ -1,0 +1,62 @@
+<!--
+Facebook Calendar Puzzle Submission
+
+Copyright (c) 2013 Ryan Parman.
+All rights reserved. You are not allowed to re-use this code.
+Use it to learn, but solve the problem on your own, with your own code.
+-->
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Facebook</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,requiresActiveX=false">
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-title" content="Facebook Calendar">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<link rel="icon" type="image/png" href="https://fbstatic-a.akamaihd.net/rsrc.php/v2/ym/r/qOAuy_fpEXc.png">
+		<link rel="apple-touch-icon-precomposed" sizes="1024x1024" href="https://fbstatic-a.akamaihd.net/rsrc.php/v2/ym/r/qOAuy_fpEXc.png">
+		<link rel="stylesheet" href="static/facebook.css" type="text/css" media="screen">
+	</head>
+
+	<body>
+
+		<div class="container calendar">
+			<div id="time"></div>
+
+			<div id="calendar">
+				<div id="calendar-inner"></div>
+			</div>
+		</div>
+
+		<script src="static/facebook-ck.js" type="text/javascript" charset="utf-8"></script>
+		<script src="static/layoutday-ck.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+		layOutDay([
+			{start: 610, end: 670},
+			{start: 540, end: 600},
+			{start: 30,  end: 150},
+			{start: 560, end: 620}
+		]);
+
+		// layOutDay([
+		// 	{start: 0, end: 120},
+		// 	{start: 45, end: 165},
+		// 	{start: 90, end: 210},
+		// 	{start: 135, end: 195},
+		// 	{start: 180, end: 300},
+		// 	{start: 210, end: 330},
+		// 	{start: 240, end: 320},
+		// 	{start: 350, end: 410},
+		// 	{start: 450, end: 500},
+		// 	{start: 440, end: 550},
+		// 	{start: 510, end: 570},
+		// 	{start: 600, end: 720},
+		// 	{start: 630, end: 720},
+		// 	{start: 660, end: 720},
+		// 	{start: 690, end: 720}
+		// ]);
+		</script>
+	</body>
+</html>
