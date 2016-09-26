@@ -5,92 +5,92 @@
 // Use it to learn, but solve the problem on your own, with your own code.
 
 body {
-	font: 12px/1.3em "Lucida Grande", "Helvetica Neue", Verdana, Arial, sans-serif;
-	margin: 0;
-	padding: 0;
+    font: 12px/1.3em "Lucida Grande", "Helvetica Neue", Verdana, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 h4, p {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h4 {
-	color: #4b6ea9;
-	font-size: 12px;
+    color: #4b6ea9;
+    font-size: 12px;
 }
 
 p {
-	color: #797979;
-	font-size: 9px;
+    color: #797979;
+    font-size: 9px;
 }
 
 div.container {
-	margin: 30px 0 0 10px;
-	width: 685px;
-	zoom: 1;
+    margin: 30px 0 0 10px;
+    width: 685px;
+    zoom: 1;
 
-	&:after {
-		content: ".";
-		display: block;
-		height: 0;
-		clear: both;
-		visibility: hidden;
-	}
+    &:after {
+        content: ".";
+        display: block;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
 }
 
 #time {
-	float: left;
-	width: 70px;
-	line-height: 0;
-	position: relative;
+    float: left;
+    width: 70px;
+    line-height: 0;
+    position: relative;
 
-	div {
-		text-align: right;
-		width: 60px;
-		padding-right: 10px;
-		position: absolute;
-		left: 0;
+    div {
+        text-align: right;
+        width: 60px;
+        padding-right: 10px;
+        position: absolute;
+        left: 0;
 
-		&.oclock span.time {
-			font-size: 13px;
-			color: #686868;
-			font-weight: bold;
-		}
-	}
+        &.oclock span.time {
+            font-size: 13px;
+            color: #686868;
+            font-weight: bold;
+        }
+    }
 
-	span.meridian,
-	div.thirty span.time {
-		font-size: 9px;
-		color: #a6a6a6;
-		font-weight: normal;
-		font-variant: small-caps;
-	}
+    span.meridian,
+    div.thirty span.time {
+        font-size: 9px;
+        color: #a6a6a6;
+        font-weight: normal;
+        font-variant: small-caps;
+    }
 }
 
 #calendar {
-	float: right;
-	width: 600px;
-	height: 720px;
-	padding: 0 10px;
-	margin: 2px 0;
-	border-left: 1px solid #ccc;
-	background-color: #ececec;
+    float: right;
+    width: 600px;
+    height: 720px;
+    padding: 0 10px;
+    margin: 2px 0;
+    border-left: 1px solid #ccc;
+    background-color: #ececec;
 
-	#calendar-inner {
-		position: relative;
-	}
+    #calendar-inner {
+        position: relative;
+    }
 
-	div.event {
-		position: absolute;
-		overflow: hidden;
-	}
+    div.event {
+        position: absolute;
+        overflow: hidden;
+    }
 
-	div.event-inner {
-		height: 100%;
-		padding: 10px;
-		background-color: #fff;
-		border: 1px solid #d5d5d5;
-		border-left: 4px solid #4c6fa9;
-	}
+    div.event-inner {
+        height: 100%;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #d5d5d5;
+        border-left: 4px solid #4c6fa9;
+    }
 }
